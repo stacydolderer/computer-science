@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Great Falls High School Lesson Plans">
+        <title>EMS Lesson Plans</title> 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://webnots.com/resources/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css"/>
+        <style>
+            .table-responsive {
+                overflow-x: hidden;
+            }
+            @media (max-width: 800px) {
+                .table-responsive {
+                    overflow-x: auto;
+                }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="text-center">East Middle School Lesson Plans</h1>
+        <div class="container">
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover" id="dtOrderExample">
+                        <thead>
+                            <tr>
+                                <th>Last Name</th>
+                                <th>First Name</th>
+                                <th>Subject</th>
+                                <th>Team</th>
+                                <th>Planbook Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Arnott</td>
+                                <td>Carla</td>
+                                <td>Social Studies</td>
+                                <td>Xtreme</td>
+                                <td><a href="http://bit.ly/arnottems">http://bit.ly/arnottems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Bell</td>
+                                <td>Kara</td>
+                                <td>Vocal Music</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/bellems">http://bit.ly/bellems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Cantley</td>
+                                <td>Jennifer</td>
+                                <td>Vocal Music</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/cantleyems">http://bit.ly/cantleyems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Carlson</td>
+                                <td>Kent</td>
+                                <td>Science</td>
+                                <td>Dynamo</td>
+                                <td><a href="http://bit.ly/kcarlsonems">http://bit.ly/kcarlsonems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Coffin</td>
+                                <td>Shannon</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Crawford</td>
+                                <td>Autumn</td>
+                                <td>English/Science</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/acrawfordems">http://bit.ly/acrawfordems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Culliton</td>
+                                <td>Adrienne</td>
+                                <td>English</td>
+                                <td>Dynamo</td>
+                                <td><a href="http://bit.ly/acullitonems">http://bit.ly/acullitonems</a>  </td>
+                            </tr>
+                            <tr>
+                                <td>Davey</td>
+                                <td>Keith</td>
+                                <td>English</td>
+                                <td>Supersonic</td>
+                                <td><a href="http://bit.ly/kdaveyems">http://bit.ly/kdaveyems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Doughty</td>
+                                <td>Barbara</td>
+                                <td>Speech</td>
+                                <td>&nbsp;</td>
+                                <td><a href="mailto:barbara_doughty@gfps.k12.mt.us">barbara_doughty@gfps.k12.mt.us</a></td>
+                            </tr>
+                            <tr>
+                                <td>Gilbert</td>
+                                <td>Frank</td>
+                                <td>Math</td>
+                                <td>Xtreme</td>
+                                <td><a href="http://bit.ly/fgilbertems">http://bit.ly/fgilbertems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Halcro</td>
+                                <td>Leesa</td>
+                                <td>Social Studies</td>
+                                <td>Dynamo</td>
+                                <td><a href="http://bit.ly/Halcroems">http://bit.ly/Halcroems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Hanning</td>
+                                <td>Mary Ann</td>
+                                <td>Life Skills</td>
+                                <td>&nbsp;</td>
+                                <td><a href="mailto:maryann_hanning@gfps.k12.mt.us">maryann_hanning@gfps.k12.mt.us</a></td>
+                            </tr>
+                            <tr>
+                                <td>Heintzelman</td>
+                                <td>Nicole</td>
+                                <td>Math</td>
+                                <td>Dynamo</td>
+                                <td><a href="http://bit.ly/heintzelmanems">http://bit.ly/heintzelmanems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Heisler</td>
+                                <td>Allen</td>
+                                <td>Health Enhancement</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/healthPEems">http://bit.ly/healthPEems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Herd</td>
+                                <td>Nick</td>
+                                <td>Computer Applications</td>
+                                <td>Velocity</td>
+                                <td><a href="http://bit.ly/nherdems">http://bit.ly/nherdems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Hinchman</td>
+                                <td>Jolena</td>
+                                <td>Social Studies</td>
+                                <td>Supersonic</td>
+                                <td><a href="http://bit.ly/hinchmanems">http://bit.ly/hinchmanems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Hogan</td>
+                                <td>Cody</td>
+                                <td>Math/Social Skills</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/hoganems">http://bit.ly/hoganems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Hopkins</td>
+                                <td>Bridgit</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/hopkinsems">http://bit.ly/hopkinsems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Jablonski</td>
+                                <td>Jenn</td>
+                                <td>Math</td>
+                                <td>VIP</td>
+                                <td><a href="http://bit.ly/jablonskiems">http://bit.ly/jablonskiems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Jacobsen</td>
+                                <td>Kristen</td>
+                                <td>French</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/jacobsenems">http://bit.ly/jacobsenems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Kakalecik</td>
+                                <td>Ryan</td>
+                                <td>Art</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/kakalecik19-20">http://bit.ly/kakalecik19-20</a></td>
+                            </tr>
+                            <tr>
+                                <td>Kohler</td>
+                                <td>Lela</td>
+                                <td>English</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/kohlerems">http://bit.ly/kohlerems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Krahe</td>
+                                <td>Stacey</td>
+                                <td>Math</td>
+                                <td>Velocity</td>
+                                <td><a href="http://bit.ly/kraheems">http://bit.ly/kraheems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Kumm</td>
+                                <td>Kim</td>
+                                <td>Math</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/kkummems">http://bit.ly/kkummems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Kumm</td>
+                                <td>Phil</td>
+                                <td>Science</td>
+                                <td>VIP</td>
+                                <td><a href="http://bit.ly/pkummems">http://bit.ly/pkummems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Lahaderne</td>
+                                <td>Giordano</td>
+                                <td>Reading/English/Social Studies</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/lahaderneems">http://bit.ly/lahaderneems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Little</td>
+                                <td>Heidi</td>
+                                <td>Health Enhancement</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/healthPEems">http://bit.ly/healthPEems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Maddox</td>
+                                <td>Ken</td>
+                                <td>&nbsp;</td>
+                                <td>Velocity</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>Maloney</td>
+                                <td>Bethe</td>
+                                <td>English</td>
+                                <td>Velocity</td>
+                                <td><a href="http://bit.ly/bmaloneyems">http://bit.ly/bmaloneyems</a></td>
+                            </tr>
+                            <tr>
+                                <td>McCann</td>
+                                <td>Thom</td>
+                                <td>Resource Math</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/mccannems">http://bit.ly/mccannems</a>  </td>
+                            </tr>
+                            <tr>
+                                <td>McIntyre</td>
+                                <td>Kim</td>
+                                <td>Math Lab</td>
+                                <td>VIP</td>
+                                <td><a href="http://bit.ly/mcintyreems">http://bit.ly/mcintyreems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Morris</td>
+                                <td>Rachelle</td>
+                                <td>Science</td>
+                                <td>Xtreme</td>
+                                <td><a href="http://bit.ly/rmorrisems">http://bit.ly/rmorrisems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Murphy</td>
+                                <td>Megan</td>
+                                <td>Science</td>
+                                <td>Velocity</td>
+                                <td><a href="http://bit.ly/mmurphyems">http://bit.ly/mmurphyems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Newman</td>
+                                <td>Jenn</td>
+                                <td>Reading/English</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/jnewmanems">http://bit.ly/jnewmanems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Olson</td>
+                                <td>Lance</td>
+                                <td>Social Studies</td>
+                                <td>VIP</td>
+                                <td><a href="http://bit.ly/olsonems">http://bit.ly/olsonems</a>  </td>
+                            </tr>
+                            <tr>
+                                <td>O&rsquo;Rourke</td>
+                                <td>Mike</td>
+                                <td>Math Lab</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/orourkeems">http://bit.ly/orourkeems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Plovanic</td>
+                                <td>Mary Lou</td>
+                                <td>Social Studies</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/mrsplovanicems">http://bit.ly/mrsplovanicems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Ramsey</td>
+                                <td>Lindy</td>
+                                <td>Health Enhancement</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/healthPEems">http://bit.ly/healthPEems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Rediske</td>
+                                <td>Dan</td>
+                                <td>Science</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/rediskeems">http://bit.ly/rediskeems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Sangwin</td>
+                                <td>Bobbi</td>
+                                <td>Science</td>
+                                <td>Supersonic</td>
+                                <td><a href="http://bit.ly/bsangwin8ems">http://bit.ly/bsangwin8ems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Sangwin</td>
+                                <td>Steve</td>
+                                <td>English</td>
+                                <td>Xtreme</td>
+                                <td><a href="http://bit.ly/ssangwinems">http://bit.ly/ssangwinems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Senger</td>
+                                <td>Derrick</td>
+                                <td>Industrial Tech</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/sengerems">http://bit.ly/sengerems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Shull</td>
+                                <td>Lisa</td>
+                                <td>Orchestra</td>
+                                <td>Velocity</td>
+                                <td><a href="http://bit.ly/shullems">http://bit.ly/shullems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Stansbury</td>
+                                <td>Kelly</td>
+                                <td>Reading/Science</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/Stansburyems">http://bit.ly/Stansburyems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Sterling</td>
+                                <td>Amy</td>
+                                <td>Family Consumer Science</td>
+                                <td>VIP</td>
+                                <td><a href="http://bit.ly/SterlingFCS">http://bit.ly/SterlingFCS</a></td>
+                            </tr>
+                            <tr>
+                                <td>Stubbs</td>
+                                <td>Michelle</td>
+                                <td>Math</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/mstubbsems">http://bit.ly/mstubbsems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Sundquist</td>
+                                <td>Lisa</td>
+                                <td>Band</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/sundquistems">http://bit.ly/sundquistems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Swartz</td>
+                                <td>Tony</td>
+                                <td>Financial Literacy</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/swartzems">http://bit.ly/swartzems</a>  </td>
+                            </tr>
+                            <tr>
+                                <td>Tolan</td>
+                                <td>Mary Beth</td>
+                                <td>Life Skills</td>
+                                <td>&nbsp;</td>
+                                <td><a href="mailto:marybeth_tolan@gfps.k12.mt.us">marybeth_tolan@gfps.k12.mt.us</a></td>
+                            </tr>
+                            <tr>
+                                <td>Vehrs</td>
+                                <td>Brenda</td>
+                                <td>English</td>
+                                <td>VIP</td>
+                                <td><a href="http://bit.ly/vehrsems">http://bit.ly/vehrsems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Vogler</td>
+                                <td>Elaine</td>
+                                <td>Reading/English</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/evoglerems">http://bit.ly/evoglerems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Volkmar</td>
+                                <td>Jennifer</td>
+                                <td>Art</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/jvolkmarems">http://bit.ly/jvolkmarems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Volkmar</td>
+                                <td>Pat</td>
+                                <td>RAM Enterprises</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://bit.ly/Volkmar19-20">http://bit.ly/Volkmar19-20</a></td>
+                            </tr>
+                            <tr>
+                                <td>Wanke</td>
+                                <td>Susan</td>
+                                <td>Library</td>
+                                <td>&nbsp;</td>
+                                <td><a href="http://www.ramslib.org/">http://www.ramslib.org/</a></td>
+                            </tr>
+                            <tr>
+                                <td>Williamson</td>
+                                <td>Shelli</td>
+                                <td>Social Studies</td>
+                                <td>Velocity</td>
+                                <td><a href="http://bit.ly/williamsonems">http://bit.ly/williamsonems</a></td>
+                            </tr>
+                            <tr>
+                                <td>Wren</td>
+                                <td>Mary</td>
+                                <td>Math</td>
+                                <td>Supersonic</td>
+                                <td><a href="http://bit.ly/wrenems">http://bit.ly/wrenems</a></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- End of first row (copy and paste this block to append additional rows -->
+            <!-- Paste additional rows here -->
+        </div>
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#dtOrderExample').DataTable({
+                    "order": [[ 0, "asc" ]]
+                });
+            });
+        </script>
+
+    </body>
+</html>
